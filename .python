@@ -1,4 +1,4 @@
-#Допустим здесь было сделать что-то важное
+#Теперь делаем все тоже самое, ТОЛЬКО ИЩЕМ МИМНМИУМ
 num = input('Введите числа через запятую')
-num_max = max([int(x) for x in num.split()])
-print(num_max)
+num_min = min([int(x) for x in num.split()])
+print(num_min)
