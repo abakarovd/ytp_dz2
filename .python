@@ -1,0 +1,3 @@
+num = input('Введите числа через запятую')
+num_max = max([int(x) for x in num.split()])
+print(num_max)
